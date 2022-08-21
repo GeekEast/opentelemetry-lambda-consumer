@@ -1,4 +1,5 @@
 import "reflect-metadata"
+import "./bootstrap/telemetry.bootstrap"
 import "./tasks/register"
 
 import { SQSEvent, SQSHandler } from "aws-lambda"

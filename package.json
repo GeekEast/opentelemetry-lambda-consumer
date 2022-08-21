@@ -61,6 +61,17 @@
     "zx": "4.3.0"
   },
   "dependencies": {
+    "@opentelemetry/auto-instrumentations-node": "^0.31.2",
+    "@opentelemetry/exporter-jaeger": "^1.5.0",
+    "@opentelemetry/instrumentation": "^0.31.0",
+    "@opentelemetry/instrumentation-aws-lambda": "^0.32.0",
+    "@opentelemetry/instrumentation-express": "^0.30.0",
+    "@opentelemetry/instrumentation-graphql": "^0.29.0",
+    "@opentelemetry/instrumentation-http": "^0.31.0",
+    "@opentelemetry/resources": "^1.5.0",
+    "@opentelemetry/sdk-trace-base": "^1.5.0",
+    "@opentelemetry/sdk-trace-node": "^1.5.0",
+    "@opentelemetry/semantic-conventions": "^1.5.0",
     "axios": "0.27.2",
     "class-transformer": "^0.5.1",
     "class-validator": "^0.13.2",

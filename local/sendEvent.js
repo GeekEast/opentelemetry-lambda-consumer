@@ -12,7 +12,15 @@ const sendEventToLocalEventBridge = async () => {
         EventBusName: process.env.OFFLINE_EVENT_BUS_NAME,
         Source: process.env.OFFLINE_EVENT_SOURCE,
         DetailType: "SAMPLE_EVENT",
-        Detail: JSON.stringify({ name: "hello world" })
+        Detail: JSON.stringify({
+          name: "hello world",
+          otel: {
+            traceId: "",
+            spanId: "",
+            isRemote: true,
+            traceFlags: 1
+          }
+        })
       }
     ]
   }
